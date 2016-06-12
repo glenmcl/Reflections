@@ -1,0 +1,32 @@
+How did viewing a diff between two verions of a file help yousee the bug that was introduced?
+1. Version control can help find differences in files but really has no ability to check logic
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1. You can go back to working code if need something quickly and you have broke the code
+2. You can save files when areas of code have changed and document the changes
+
+What do you think are the pros and cons of manually choosing when to create a commit. like you do in Git vs having versions automatically saved, like Google Docs does?
+1.Pros: you can break down your commits into logical blocks
+2.Cons: you might forget to commit or have more than one logical function
+
+Why do you think some version control systems,like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+1. Program files tend to have several interelated files while documents tend to be independent
+
+How can you use the commands git log and git diff to view the history of files?
+1. git log provies a log of all the commits to the respository with a comment included as to what was changed (author, date and commit ID)
+2. git diff porvides the difference between two commits
+
+How might using version ontrol make you more confident to make changes that could break something?
+1. Given you can easily go back to code prior to potentially bad changes it removes the barrier from trying a number of approaches 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+1. Seeing how well and convenient it is to make changes and revert back on code
+
+Commands:
+git diff (compare two commits, printing each line that is present in one commit but not the other)
+git clone (make a copy of an entire Git repository, including the history, onto your own computer)
+git checkout (temporarily reset all files in a directory to their state at the time of a specific commit)
+git log (show the commits made in this respository starting with the most recent)
+git init (creates a respository)
+git status (shows what files have changed since the last commit)
+git add $FILE_NAME (adds files to the staging area so that when a commit is run these files are included)
