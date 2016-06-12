@@ -1,0 +1,9 @@
+Commands:
+git diff (compare two commits, printing each line that is present in one commit but not the other)
+git clone (make a copy of an entire Git repository, including the history, onto your own computer)
+git checkout (temporarily reset all files in a directory to their state at the time of a specific commit)
+git log (show the commits made in this respository starting with the most recent)
+git init (creates a respository)
+git status (shows what files have changed since the last commit)
+git add $FILE_NAME (adds files to the staging area so that when a commit is run these files are included)
+git commit (commits files in the staging area to be tracked)

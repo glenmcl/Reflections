@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+1. You need to set up a folder for the changes to be tracked (so a folder is set up)
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+1. The staging area is a temporary place holder for files that are believed to be ready to commit when all the staging files are ready.  As for the working director these files are not tracked an are not at a point in time that they are ready to start being tracked
