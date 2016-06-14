@@ -3,3 +3,15 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 1. The staging area is a temporary place holder for files that are believed to be ready to commit when all the staging files are ready.  As for the working director these files are not tracked an are not at a point in time that they are ready to start being tracked
+
+How can you use the staging area to make sure you have one commit per logical change?
+1. By looking at git diff --staged you can look at all the modified files to ensure that they reflect on a singluar set of logical modificaitons
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1. Branches are good where you might have a set of code that currently works and you want one team to maintain and correct bugs on one set of code and the branch you can experiment with new capabilities and from there not disrupt the working code branch
+
+How do diagrams help you visualize the branch structure?
+1. It allows you to see where in the history of the development process various items were modified or branched off to allow for items to be experimented with.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+1. When you merge two branches together it attempts to take the modifications from each separate code branch and bring them together.  This should work fairly well provided that each branch operates on different sections of the code.
