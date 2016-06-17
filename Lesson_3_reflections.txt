@@ -1,0 +1,3 @@
+When would you want to use a remoterepository rather thankeeping all your work local?
+1. When you might want to share your files or if you have several systems that you might use and need to be able to have access to each one with consistent and up to date files
+
