@@ -10,7 +10,7 @@ git commit (commits files in the staging area to be tracked) (Message format: ty
 git diff (no additional coments provides differents between working directory and staging area)
 git diff --staged (difference between staging area and repository)
 git reset --hard (discards any changes in either working directory or staging area) NOT REVERSIBLE!!!
-git checkout master (returns to the head of the commit files)
+git check out master (returns to the head of the commit files)
 git branch (shows current branches)
 git branch $NAME (creates a new branch with $NAME)
 git log --graph --oneline $BRANCH_NAME $BRANCH_NAME ... (shows a set of commits for the branches)
@@ -19,3 +19,10 @@ git gc (Garbage collection,cleans out unreachable branches)
 git merge $BRANCH2 ($BRANCH2 will be merged into the branch that is currently checked out)
 git mrege --abort (restonres files to a known state for a failed merge)
 git show commit_id (compares a commit to its parent)
+
+gitHub commands:
+git remote (are there any repositories on gitHub)
+git remote add $NAME $Addess (adding a respository on gitHub)
+git remote -v (verbose)
+git push $gitHubNAME $BRANCHNAME (origin master)
+git pull $gitHubName $BRANCHNAME (origin master) (This is the same as running 1. git fetch origin 		2. git merge master origin/master)
